@@ -1,0 +1,14 @@
+$main-color: #d5d5d5;
+$rodape: #000;
+
+@mixin botao{
+   background: $main-color;
+}
+
+.rodape{
+	width: 100%;
+	height: 50px;
+	background-color: $rodape;
+	@include botao;
+}
+
